@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <script>
+        // console.log("welcome to Array")
+        // let arr = [4, 67, true, "Shaheer"]
+     
+        // for (let i = 0; i < arr.length; i++) {
+        //     const element = arr[i];
+        //     console.log(element)
+        // }
+
+        // for (const element of arr) {
+        //     console.log(element)
+            
+        // }
+        // arr.push(67)
+        let arr =  [1, 2, 3]
+        function square(a){
+            return a * a;
+        }
+        let arrNew = arr.map(square)
+        console.log(arrNew)
+
+        let scores = [34, 50, 66, 23, 99, 76, 88]
+
+        function gt60(a){
+            if(a>60){ 
+            return true
+        }
+        return false
+        }
+        console.log(scores.filter(gt60))
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
